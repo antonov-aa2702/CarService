@@ -19,5 +19,8 @@
 будет содержать информацию о самом владельце(ФИО, телефон/email), марке, годе производства,
 цвете и номере.
 Заказ содержит информацию об услуге, цене, статусе(ОК, !ОК), времени, цене, комментарии и собственно автомобиле.
- (https://github.com/antonov-aa2702/CarService/blob/main/CarService.png)
+
+![CarService](https://github.com/antonov-aa2702/CarService/assets/128129693/65ab3cd5-03cd-4a35-b433-5c213e7e52e9)
+
+ 
 </p>
