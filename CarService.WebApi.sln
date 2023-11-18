@@ -5,9 +5,13 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarService.WebApi", "CarService.WebApi\CarService.WebApi.csproj", "{116FD5E0-EA97-48CD-AEAF-A9109A562132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarService.BL", "CarService.BL\CarService.BL.csproj", "{31681F9E-459C-4E4E-BA44-8B73F9F8840B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarService.BL", "CarService.BL\CarService.BL.csproj", "{31681F9E-459C-4E4E-BA44-8B73F9F8840B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarService.DataAccess", "CarService.DataAccess\CarService.DataAccess.csproj", "{550D4EE9-79AB-4A1D-8331-82477071517E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarService.DataAccess", "CarService.DataAccess\CarService.DataAccess.csproj", "{550D4EE9-79AB-4A1D-8331-82477071517E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C1D20047-0DBB-4091-B593-4C9818EB0ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarService.UnitTests", "CarService.UnitTests\CarService.UnitTests.csproj", "{65AD579A-238F-4AF2-8F77-68CD4AA71C3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +31,16 @@ Global
 		{550D4EE9-79AB-4A1D-8331-82477071517E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{550D4EE9-79AB-4A1D-8331-82477071517E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{550D4EE9-79AB-4A1D-8331-82477071517E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65AD579A-238F-4AF2-8F77-68CD4AA71C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65AD579A-238F-4AF2-8F77-68CD4AA71C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65AD579A-238F-4AF2-8F77-68CD4AA71C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65AD579A-238F-4AF2-8F77-68CD4AA71C3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65AD579A-238F-4AF2-8F77-68CD4AA71C3E} = {C1D20047-0DBB-4091-B593-4C9818EB0ED4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06701C00-BFD0-408A-896F-26AB1FD4C8E6}
